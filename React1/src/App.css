@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+}
+
+.App nav {
+  margin-top: 0;
+  height: 52px;
+  margin-bottom: 1%;
+}
+
+.App ul {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: justify;
+}
+
+.App li {
+  float: left;
+  padding-left: 2%;
+}
+
+.App a {
+  float: left;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.active {
+  background-color: rgba(236, 233, 11, 0.849);
+}
+
+.container {
+  box-sizing: border-box;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.column {
+  float: left;
+  box-sizing: border-box;
+  width: 30%;
+  margin: 0.5%;
+}
+
+.card {
+  background-color: rgb(240, 237, 237);
+}
+
+.title {
+  color: rgb(155, 154, 154);
+}
+
+.card img {
+  width: 100%;
+}
+
+.card button {
+  background-color: black;
+  color: white;
+  border: none;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.card button a {
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 5px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup img {
+  width: 100%;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .close:hover {
+  color: #06D85F;
+  font-size: 100px;
+}
+
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+.switch-button {
+  margin-right: 5%;
+}
+
+.footer {
+  clear: both;
+  text-align: center;
+  background-color: rgba(196, 192, 7, 0.849);
+  color: white;
+  padding: 0.5%;
+}
